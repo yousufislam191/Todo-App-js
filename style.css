@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.todo-body {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+@media only screen and (min-width: 600px) {
+    .area {
+        width: 700px;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+#deletebtn:hover {
+    background-color: white;
+    border-color: red;
+    transition: all 0.3s;
+}
+
+li:hover {
+    background-color: rgba(32, 32, 32, 0.633);
+    border-radius: 0.6rem;
+    transition: all 0.3s;
+}
+
+.list-text {
+    overflow: hidden;
+    word-break: break-all;
+}
